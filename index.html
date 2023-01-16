@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/Assets/Asset 1@3x.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lucky Scrub</title>
+</head>
+<body>
+    <header>
+        <img src="Assets/Asset 1@3x.png" height="150" alt="logo">
+    </header>
+    <nav>
+        <ul class="nav" id="topNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="icon"><a onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="discount">
+            <article>
+                <h1>30% Off This Weekend</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat saepe corrupti laborum quos explicabo, vitae ducimus alias atque suscipit sapiente cupiditate obcaecati. Provident dicta tempore rerum fugiat ad aperiam.</p>
+            </article>
+        </section>
+        <section id="options">
+            <article>
+                <h2>Our New Menu</h2>
+                <img src="/Assets/salad.jpg" alt="salad" width="100%" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci expedita veritatis cum eaque ipsam aliquam sequi velit! Aut molestias sapiente rerum iure! Sequi porro et beatae deleniti dolore culpa.</p>
+            <a href="!#">See our new menu</a>
+            </article>
+            <article>
+                <h2>Book a table</h2>
+                <img src="/Assets/tasty.jpg" alt="food" width="100%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci expedita veritatis cum eaque ipsam aliquam sequi velit! Aut molestias sapiente rerum iure! Sequi porro et beatae deleniti dolore culpa.</p>
+                <a href="!#">Book your table now</a>
+            </article>
+            <article>
+                <h2>Opening Hours</h2>
+                <img src="/Assets/chef.jpg" alt="chef"  width="100%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos, unde, dignissimos asperiores autem vel commodi nisi cum suscipit laborum accusamus! Inventore fugit nulla reprehenderit exercitationem </p>
+                <p class="schedule">
+                    <span>Mon - Fri: 2pm - 10pm</span><br>
+                    <span>Sat: 2pm - 11pm</span><br>
+                    <span>Sun: 2pm - 9pm</span>
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <img src="/Assets/Asset 2@3x.png" width="75px" height="auto" alt="logo">
+        </section>
+        <section>
+            <p>@Copyright Lucky Scrub</p>
+        </section>
+    </footer>
+    <script>
+        function myFunction() {
+    var x = document.getElementById("topNav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+    </script>
+</body>
+</html>
